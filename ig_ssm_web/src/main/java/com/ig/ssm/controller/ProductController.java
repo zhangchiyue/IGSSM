@@ -22,7 +22,7 @@ public class ProductController {
         List<Product> ps = productService.findAll();
         System.out.println(ps);
         mv.addObject("productList",ps);
-        mv.setViewName("product-list");
+        mv.setViewName("product-list1");
         return mv;
     }
 }

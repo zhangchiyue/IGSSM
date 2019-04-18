@@ -7,7 +7,7 @@
 		<!-- Sidebar user panel -->
 		<div class="user-panel">
 			<div class="pull-left image">
-				<img src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+				<img src="$${pageContext.request.contextPath}/img/user2-160x160.jpg"
 					class="img-circle" alt="User Image">
 			</div>
 			<div class="pull-left info">
@@ -20,7 +20,7 @@
 		<ul class="sidebar-menu">
 			<li class="header">菜单</li>
 			<li id="admin-index"><a
-				href="${pageContext.request.contextPath}/pages/main.jsp"><i
+				href="$${pageContext.request.contextPath}/pages/main.jsp"><i
 					class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
 			<li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
@@ -33,19 +33,19 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/user/findAll.do"> <i
+						href="$${pageContext.request.contextPath}/user/findAll.do"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/role/findAll.do"> <i
+						href="$${pageContext.request.contextPath}/role/findAll.do"> <i
 							class="fa fa-circle-o"></i> 角色管理
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/permission/findAll.do">
+						href="$${pageContext.request.contextPath}/permission/findAll.do">
 							<i class="fa fa-circle-o"></i> 资源权限管理
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/sysLog/findAll.do"> <i
+						href="$${pageContext.request.contextPath}/sysLog/findAll.do"> <i
 							class="fa fa-circle-o"></i> 访问日志
 					</a></li>
 				</ul></li>
@@ -57,11 +57,11 @@
 				<ul class="treeview-menu">
 
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/product/findAll.do">
+						href="$${pageContext.request.contextPath}/product/findAll.do">
 							<i class="fa fa-circle-o"></i> 产品管理
 					</a></li>
 					<li id="system-setting"><a
-						href="${pageContext.request.contextPath}/orders/findAll.do?page=1&pageSize=3"> <i
+						href="$${pageContext.request.contextPath}/orders/findAll.do?page=1&pageSize=3"> <i
 							class="fa fa-circle-o"></i> 订单管理
 					</a></li>
 
